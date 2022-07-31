@@ -13,7 +13,7 @@ In first glanse, most of the submodules seemed unneccesery that is why I was hes
 
 When childeren are first introduced to new exciting arithmatic opperation multipication, the subject is thougth as if it is just faster way of addition. After years of learning calculus we tend to forget what fundamentaly multipication was. It is series of addition with a certain order. This is very important perspective when you design your first multipication module with hardware description languages.<br/>
 
- ![Multipication with binary]("https://raw.githubusercontent.com/EnesErcin/Pipelined_Multipication_Module/main/Multipication_Arithmatic.jpg")
+ ![Multipication with binary]("C:/Users/Enes/Desktop/Github Files/Pipelined_Multipication_Module/Multipication_Arithmatic.jpg")
 
 Lets first describe **generic mulltipication module**:<br/>
 To be able to desribe better lets say addition result is recored in register HOLD (which has 2 times more bits than the opperands). For each clock cycle (or different choosen signal) the opperation and has to be performed by particular bit of the multplier and the whole multipicand. For the next particular bit (more important bit) same and opperation is performed but the result is shifted one bit. Finaly these two opperands will be added together in addition module. Result than can be used as first opperand of addition with the and result. This cycle will countinue until the final bit of multplier is reached.
@@ -39,7 +39,7 @@ My design consist of two module one for multplier analaysis and the second one f
 I am currently working on those issues. Next step after those improvment is to build a generic analysis module.
 
 Since the mentor would suggest us to finish this project to start the next one I also had to build the multipication circuit module with submodules described in the picture below.
- ![RTL From Vivado]("https://raw.githubusercontent.com/EnesErcin/Pipelined_Multipication_Module/main/RTL_Schematic.jpg")
+ ![RTL From Vivado](https://github.com/EnesErcin/Pipelined_Multipication_Module/blob/main/RTL_Schematic.jpg")
 
  ![Rtl From Initial Design]("https://raw.githubusercontent.com/EnesErcin/Pipelined_Multipication_Module/main/RTL_in_higher_level.jpg")
 
